@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+		<script src="barcode.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+		.canvas {
+			position: absolute;
+			top: 40;
+			left: 0;
+			z-index: 10;
+		}
+		.video {
+			position: absolute;
+			top: 40;
+			left: 0;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="error"></div>
+		<div class="container">
+			<video class="video" id="video"></video>
+			<canvas class="canvas" id="canvas"></canvas>
+		</div>
+	</body>
+</html>
